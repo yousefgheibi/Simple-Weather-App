@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/main.js" defer></script>
   <title>Weather App</title>
 </head>
 <body>
@@ -32,18 +33,18 @@
           <div class="button-dial-top"></div>
           <div class="button-dial-label">
             <img src="https://openweathermap.org/img/wn/04n@2x.png" alt="" class="icon" />
-            12 &deg;C
+            <span class="temp">21°C</span>
           </div>
         </div>
         
         <div class="flex-button-container">
-          <button class="button button-large humidity">
+          <button class="button button-large">
             <img src="assets/img/humidity.png" class="w-100">
-            63 %
+            <p class="humidity">63 %</p>
           </button>
-          <button class="button button-large wind">
+          <button class="button button-large">
             <img src="assets/img/wind.png" class="w-100">
-            23 Km/h
+            <span class="wind"> 23 Km/h</span>
           </button>
       </div>
       </div>
