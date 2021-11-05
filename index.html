@@ -9,20 +9,47 @@
   <title>Weather App</title>
 </head>
 <body>
-    <div class="card">
-      <div class="search">
-        <input type="text" class="search-bar" placeholder="Search">
-        <button><i class="fas fa-search"></i></button>
-      </div>
-      <div class="weather">
-        <h2 class="city">Weather in Urmia</h2>
-        <h1 class="temp">51°C</h1>
-        <img src="" alt="" class="icon" />
-        <div class="description">Cloudy</div>
-        <div class="humidity">Humidity: 60%</div>
-        <div class="wind">Wind speed: 6.2 km/h</div>
 
+
+
+  <div class="container">
+    <div class="app-container">
+      <div class="app-top-bar">
+    
+        <h1 class="app-heading city">Urmia</h1>
+      </div>
+      <div class="app-content">
+          <input type="text" class="search-bar" placeholder="Search">
+
+        <div class="button button-dial">
+          
+          <span class="button-dial-spoke"></span>
+          <span class="button-dial-spoke"></span>
+          <span class="button-dial-spoke"></span>
+          <span class="button-dial-spoke"></span>
+          <span class="button-dial-spoke"></span>
+          <span class="button-dial-spoke"></span>
+          <div class="button-dial-top"></div>
+          <div class="button-dial-label">
+            <img src="https://openweathermap.org/img/wn/04n@2x.png" alt="" class="icon" />
+            12 &deg;C
+          </div>
+        </div>
+        
+        <div class="flex-button-container">
+          <button class="button button-large humidity">
+            <img src="assets/img/humidity.png" class="w-100">
+            63 %
+          </button>
+          <button class="button button-large wind">
+            <img src="assets/img/wind.png" class="w-100">
+            23 Km/h
+          </button>
+      </div>
       </div>
     </div>
+    
+     
+  </div>
 </body>
 </html>
